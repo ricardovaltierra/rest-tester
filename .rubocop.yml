@@ -35,7 +35,7 @@ Style/CaseEquality:
 Style/ConditionalAssignment:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   EnforcedColonStyle: key
 Layout/LineLength:
   Max: 150
