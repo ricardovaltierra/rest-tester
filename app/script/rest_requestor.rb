@@ -3,4 +3,5 @@ puts "Type in url:"
 link = gets.chomp
 url = "http://" + link
 
-puts RestClient.get(url)
+# puts RestClient.get(url)
+puts RestClient.post(url,"")
