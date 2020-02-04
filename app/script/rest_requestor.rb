@@ -1,6 +1,6 @@
-require 'rest-client'
+require "rest-client"
 puts "Type in url:"
-url = gets.chomp
-# url = "http://localhost:3000"
+link = gets.chomp
+url = "http://" + link
 
 puts RestClient.get(url)
